@@ -1,13 +1,50 @@
-@media (max-width: 767px) {
+body {
+  font-size: 16px;
+}
 
-    #mobile-menu {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
+.navbar {
+  border-radius: 0;
+}
 
-    .navbar-collapse {
-        border-top: 1px solid #ddd;
-    }
+.navbar-brand {
+  padding-top: 15px;
+}
 
+.navbar-brand a {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#mobile-menu {
+  background-color: #f2f2f2;
+}
+
+#mobile-menu li {
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+#mobile-menu a {
+  color: #000;
+}
+
+#mobile-menu a:hover {
+  background: #ddd;
+}
+
+.menu-section {
+  background: #d9d9d9;
+  padding: 20px;
+  margin-top: 30px;
+  min-height: 1000px;
+}
+
+.menu-section h2 {
+  margin-top: 0;
 }
