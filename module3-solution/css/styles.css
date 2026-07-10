@@ -7,18 +7,15 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 15px;
-}
-
-.navbar-brand a {
   font-size: 1.5em;
   font-weight: bold;
   color: #000;
   text-decoration: none;
 }
 
-.navbar-brand a:hover,
-.navbar-brand a:focus {
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #000;
   text-decoration: none;
 }
 
